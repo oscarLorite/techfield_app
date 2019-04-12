@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TechfieldApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Hello</h1>
+        <p> I make Rails. </p>
+        <%= render 'layouts/user_widget' %>
+      </div>
+    </div>
+  </body>
+</html>
